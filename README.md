@@ -135,41 +135,6 @@ Este projeto faz parte do meu **portfólio em Engenharia de Dados**, com foco em
 
 
 ## 🏗️ Diagrama de Arquitetura — SharePoint → Databricks (Lakehouse)
-  ┌────────────────────┐
-│   SharePoint       │
-│  (Excel / Tabela)  │
-└─────────┬──────────┘
-          │
-          │ Microsoft Graph API
-          │ (OAuth2 + Azure AD)
-          ▼
-┌────────────────────┐
-│   Databricks       │
-│  Notebook PySpark  │
-│                    │
-│ • Autenticação     │
-│ • Download Excel   │
-│ • Pandas           │
-│ • PySpark          │
-└─────────┬──────────┘
-          │
-          │ Transformações
-          │ Padronização
-          ▼
-┌────────────────────┐
-│   Delta Lake       │
-│ (Lakehouse Table)  │
-│ dim_de_para_categoria │
-└─────────┬──────────┘
-          │
-          │ Consumo Analítico
-          ▼
-┌────────────────────┐
-│ BI / Analytics     │
-│ Power BI / SQL     │
-│ Automação / IA     │
-└────────────────────┘
-
 
 ![Diagrama de Arquitetura](https://github.com/user-attachments/assets/b6f649f1-8722-4f69-afe3-113181a56daa)
 
