@@ -138,4 +138,7 @@ Este projeto faz parte do meu **portfólio em Engenharia de Dados**, com foco em
 
 ![Diagrama de Arquitetura](https://github.com/user-attachments/assets/b6f649f1-8722-4f69-afe3-113181a56daa)
 
+## 🐍 Código Completo em Python
+[📄 Ver código completo (PySpark + SharePoint)](https://github.com/patriciacidadesilva/Ingestao_Dados_Sharepoint/blob/main/Codigo_Completo.py)
+
 
